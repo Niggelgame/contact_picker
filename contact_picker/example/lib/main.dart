@@ -26,10 +26,10 @@ class MainWidget extends StatefulWidget {
 }
 
 class _MainWidgetState extends State<MainWidget> {
-  PhoneContact _phoneContact;
-  EmailContact _emailContact;
-  String _contact;
-  Image _contactPhoto;
+  PhoneContact? _phoneContact;
+  EmailContact? _emailContact;
+  String? _contact;
+  Image? _contactPhoto;
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -42,22 +42,22 @@ class _MainWidgetState extends State<MainWidget> {
               Column(
                 children: <Widget>[
                   const Text("Email contact:"),
-                  Text("Name: ${_emailContact.fullName}"),
+                  Text("Name: ${_emailContact?.fullName}"),
                   Text(
-                      "Email: ${_emailContact.email.email} (${_emailContact.email.label})")
+                      "Email: ${_emailContact?.email.email} (${_emailContact?.email.label})")
                 ],
               ),
             if (_phoneContact != null)
               Column(
                 children: <Widget>[
                   const Text("Phone contact:"),
-                  Text("Name: ${_phoneContact.fullName}"),
+                  Text("Name: ${_phoneContact?.fullName}"),
                   Text(
-                      "Phone: ${_phoneContact.phoneNumber.number} (${_phoneContact.phoneNumber.label})")
+                      "Phone: ${_phoneContact?.phoneNumber.number} (${_phoneContact?.phoneNumber.label})")
                 ],
               ),
-            if (_contactPhoto != null) _contactPhoto,
-            if (_contact != null) Text(_contact),
+            if (_contactPhoto != null) _contactPhoto!,
+            if (_contact != null) Text(_contact!),
             RaisedButton(
               child: const Text("pick phone contact"),
               onPressed: () async {

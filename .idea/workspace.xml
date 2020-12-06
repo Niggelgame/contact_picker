@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2d25e0e-53db-406a-b03d-8810e3a4cc78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contact_picker_web/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_picker_web/lib/contact_picker_plugin.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_picker_web/lib/js_functions/check_availability.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_picker_web/lib/js_functions/open_picker.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_picker_web/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/contact_picker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/contact_picker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_picker/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker/example/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact_picker/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker/example/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact_picker/lib/fluttercontactpicker.dart" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker/lib/fluttercontactpicker.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/contact.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/email_address.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/email_contact.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/full_contact/address.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/full_contact/custom_field.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/full_contact/full_contact.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/full_contact/instant_messenger.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/full_contact/photo.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/full_contact/relation.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/full_contact/structured_name.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker/lib/src/interface.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/labeled.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/phone_contact.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/phone_number.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +78,7 @@
       </method>
     </configuration>
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/contact_picker/example/lib/main.dart" />
       <method v="2" />
     </configuration>
   </component>
@@ -110,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607270357089</updated>
-      <workItem from="1607270363160" duration="9322000" />
+      <workItem from="1607270363160" duration="10817000" />
     </task>
     <servers />
   </component>
