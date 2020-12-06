@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2d25e0e-53db-406a-b03d-8810e3a4cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/fluttercontactpicker.dart" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker/lib/fluttercontactpicker.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact_picker/lib/src/interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker/lib/src/interface.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_picker_platform_interface/lib/contact_picker_platform_interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/contact_picker_platform_interface/lib/contact_picker_platform_interface.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607270357089</updated>
-      <workItem from="1607270363160" duration="10817000" />
+      <workItem from="1607270363160" duration="10928000" />
     </task>
     <servers />
   </component>

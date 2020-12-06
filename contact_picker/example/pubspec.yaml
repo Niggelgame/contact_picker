@@ -30,6 +30,7 @@ dev_dependencies:
 
   fluttercontactpicker:
     path: ../
+  
 
 analyzer:
   enable-experiment:

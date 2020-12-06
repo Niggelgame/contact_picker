@@ -1,3 +1,5 @@
+// @dart=2.9
+
 import 'package:flutter/material.dart';
 import 'package:fluttercontactpicker/fluttercontactpicker.dart';
 
@@ -26,10 +28,10 @@ class MainWidget extends StatefulWidget {
 }
 
 class _MainWidgetState extends State<MainWidget> {
-  PhoneContact? _phoneContact;
-  EmailContact? _emailContact;
-  String? _contact;
-  Image? _contactPhoto;
+  PhoneContact _phoneContact;
+  EmailContact _emailContact;
+  String _contact;
+  Image _contactPhoto;
 
   @override
   Widget build(BuildContext context) => Scaffold(
@@ -56,8 +58,8 @@ class _MainWidgetState extends State<MainWidget> {
                       "Phone: ${_phoneContact?.phoneNumber.number} (${_phoneContact?.phoneNumber.label})")
                 ],
               ),
-            if (_contactPhoto != null) _contactPhoto!,
-            if (_contact != null) Text(_contact!),
+            if (_contactPhoto != null) _contactPhoto,
+            if (_contact != null) Text(_contact),
             RaisedButton(
               child: const Text("pick phone contact"),
               onPressed: () async {

@@ -1,3 +1,5 @@
+// @dart=2.9
+
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 import 'email_contact.dart';
 import 'full_contact/full_contact.dart';
